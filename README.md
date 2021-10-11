@@ -6,5 +6,5 @@ https://docs.google.com/document/d/1Lb-sFeqdVITwLK2e73MgK_pP85W05VcUY5S65OL2WgM/
 
 ## Code:
 Plan-and-Write:
-  Code: https://bitbucket.org/VioletPeng/language-model/src/master/
+  Code: https://bitbucket.org/VioletPeng/language-model/src/master/ <br>
   Paper: https://arxiv.org/pdf/1811.05701.pdf
