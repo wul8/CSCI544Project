@@ -12,3 +12,7 @@ Plan-and-Write: <br>
 Content Planning for Neural Story Generation with Aristotelian Rescoring: <br>
 * Code: https://github.com/PlusLabNLP/story-gen-BART <br>
 * Paper: https://aclanthology.org/2020.emnlp-main.351.pdf <br>
+
+Automatic Story Generation: Challenges and Attempts: <br>
+* Paper: https://aclanthology.org/2021.nuse-1.8.pdf
+(A good paper helps you get to know Story Generation)
