@@ -44,12 +44,12 @@ The basic command for training the storyline to story model is:
 python pytorch_src/main.py --cuda --batch_size 20 --train-data rocstory_plan_write/ROCStories_all_merge_tokenize.titlesepkeysepstory.train --valid-data rocstory_plan_write/ROCStories_all_merge_tokenize.titlesepkeysepstory.dev --test-data rocstory_plan_write/ROCStories_all_merge_tokenize.titlesepkeysepstory.test --dropouti 0.4 --dropouth 0.25 --seed 141 --epoch 100 --emsize 1000 --nhid 1000 --save model2.pt --vocab-file vocab.pkl
 ```
 
-The basic command for generating storyline is:
+The basic command for generating storyline / story planning is:
 ```
 python pytorch_src/generate.py --checkpoint model1.pt  --vocab vocab.pkl --task cond_generate --conditional-data rocstory_plan_write/ROCStories_all_merge_tokenize.title.test --cuda --temperature 0.5 --sents 100 --dedup --outf OUTPUT_FILE
 ```
 
-The basic command for generating storyline is:
+The basic command for story generatiion is:
 ```
 python pytorch_src/generate.py --vocab vocab.pkl --checkpoint model2.pt --task cond_generate --conditional-data OUTPUT_FILE --cuda --temperature 0.3 --sents 100 --outf generation_results/cond_generated_keywords_test_e500_h1000_edr0.4_hdr0.1_t0.15.txt_lm_e1000_h1500_edr0.2_hdr0.1_t0.3.txt
 ```
